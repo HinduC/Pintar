@@ -1,0 +1,26 @@
+package prog;
+
+public class rev 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		int[] a= {50,20,15,0};
+		for (int i=0; i<a.length-1;i++)
+		{
+			for(int j=0; j<a.length-1;j++)
+			{
+				if(a[j]>=a[j+1])
+				{
+					int swap=a[i];
+					a[i]=a[j];
+					a[j]=a[i];
+				}
+				System.out.println(a[i]);
+					
+				}
+			}
+		}
+
+	}
+

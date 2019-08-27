@@ -1,0 +1,19 @@
+package prog;
+
+public class fibonacci {
+
+	public static void main(String[] args) {
+		int a=1;int b = 2;
+		int c;
+		c=a+b;
+		a=b;
+		b=c;
+		for(int k=3 ; k<100;k++)
+		{
+			
+		}
+		System.out.println(c);
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package prog;
+
+public interface interg
+{
+	int i=10;
+	static void print() {
+		System.out.println("static ");
+	}
+	default void display()
+	{
+		System.out.println("Hello non_static");
+	}
+
+}

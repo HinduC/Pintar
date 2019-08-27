@@ -1,0 +1,14 @@
+package prog;
+
+public class Interface implements interg
+{
+
+	public static void main(String[] args) 
+	{
+		
+		interface.display();
+		
+
+	}
+
+}

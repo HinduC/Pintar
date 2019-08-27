@@ -1,0 +1,42 @@
+package prog;
+
+public class P11 {
+
+	public static void main(String[] args) {
+		String str = "Hi  this  is  Rita  ";
+		System.out.println(" The String is : " +str);
+		String str2=" ";
+		
+		char [] a= str.toCharArray();
+		int i;
+		for ( i=0 ; i<a.length ; i++) 
+		{
+			String word=" ";
+			int s=i;
+			while(i<a.length && a[i]!=' ')
+			{
+				i++;		
+			}
+			int e=i-1;
+			while(s<=e)
+			{
+			word = word+a[s];
+			s++;
+			}
+			// if(i<a.length)    // if v use if loop it not print the last word.
+			if(i<=a.length)
+			str2=word+" "+str2;		
+		}
+		System.out.println("reversed String is : " +str2);
+
+	}
+
+}
+
+
+
+/*
+ * output
+ *  The String is : Hi this is Rita
+reversed String is :  Rita  is  this  Hi  
+*/

@@ -1,0 +1,20 @@
+class  Switch
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+		switch (a==b)
+		{
+		case 1:
+			System.out.println("A value");
+		case 2:
+			System.out.println("B value");
+			default:
+			System.out.println("default");
+		
+	
+		}
+	
+
+	}
+}

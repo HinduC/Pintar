@@ -1,0 +1,27 @@
+package prog;
+
+public class rev 
+{
+	public static void main(String[] args) 
+	{
+		
+		for (int i=0; i<a.length-1;i++)
+		{
+			for(int j=0; j<a.length-1;j++)
+			{
+				if(a[j]>=a[j+1])
+				{
+					a[i]=a[i]+a[j];
+					a[j]=a[i]-a[j];
+					a[i]=a[i]-a[j];
+				}
+			}
+		}
+		for(int i=0;i<a.length;i++)
+		{
+		System.out.println(a[i]);
+		}
+	}
+
+}
+

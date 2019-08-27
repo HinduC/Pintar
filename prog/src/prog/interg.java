@@ -1,0 +1,23 @@
+package prog;
+
+public interface interg
+{
+	int i=10;
+	static void print() {
+		System.out.println("static ");
+	}
+	default void display()
+	{
+		System.out.println("Hello non_static");
+	}
+
+}
+class D implements interg
+{
+	public static void main(String[] args)
+	{
+		interg i=new Interface();
+		
+		i.display();
+	}
+}
